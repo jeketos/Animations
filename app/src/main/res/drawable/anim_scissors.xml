@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:drawable="@drawable/ic_content_cut">
+
+    <target
+        android:animation="@animator/scissors_bottom"
+        android:name="scissors_bottom_part"/>
+
+    <target
+        android:animation="@animator/scissors_top"
+        android:name="scissors_top_part"/>
+</animated-vector>
